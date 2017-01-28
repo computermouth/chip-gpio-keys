@@ -1,0 +1,44 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+	compatible = "nextthing,chip", "allwinner,sun5i-r8";
+
+	/* And enable the led-gpios driver on this pin */
+	fragment@0 {
+		target-path = "/";
+
+		__overlay__ {
+			gpio-keys {
+				compatible = "gpio-keys";
+				autorepeat;
+
+				left {
+					label = "GPIO Key left";
+					linux,code = <105>;
+					gpios = <&xio 0 1>;
+				};
+				up {
+					label = "GPIO Key up";
+					linux,code = <103>;
+					gpios = <&xio 0 2>;
+				};
+				down {
+					label = "GPIO Key down";
+					linux,code = <108>;
+					gpios = <&xio 0 3>;
+				};
+				right {
+					label = "GPIO Key right";
+					linux,code = <106>;
+					gpios = <&xio 0 4>;
+				};
+				ent {
+					label = "GPIO Key enter";
+					linux,code = <28>;
+					gpios = <&xio 0 5>;
+				};
+			};
+		};
+	};
+};
