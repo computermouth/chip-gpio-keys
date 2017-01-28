@@ -21,22 +21,22 @@
 				up {
 					label = "GPIO Key up";
 					linux,code = <103>;
-					gpios = <&xio 0 2>;
+					gpios = <&xio 1 1>;
 				};
 				down {
 					label = "GPIO Key down";
 					linux,code = <108>;
-					gpios = <&xio 0 3>;
+					gpios = <&xio 2 1>;
 				};
 				right {
 					label = "GPIO Key right";
 					linux,code = <106>;
-					gpios = <&xio 0 4>;
+					gpios = <&xio 3 1>;
 				};
 				ent {
 					label = "GPIO Key enter";
 					linux,code = <28>;
-					gpios = <&xio 0 5>;
+					gpios = <&xio 4 1>;
 				};
 			};
 		};

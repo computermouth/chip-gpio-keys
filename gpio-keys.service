@@ -1,0 +1,14 @@
+[Unit]
+ConditionFileIsExecutable=/bin/load-gpio-keys.sh
+DefaultDependencies=no
+After=sysinit.target local-fs.target
+Before=basic.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/load-gpio-keys.sh
+TimeoutSec=0
+RemainAfterExit=yes
+
+[Install]
+WantedBy=basic.target
