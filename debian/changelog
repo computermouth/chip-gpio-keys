@@ -1,0 +1,5 @@
+chip-gpio-keys (0.1) stable; urgency=medium
+
+  * Initial Release.
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 29 Jan 2017 20:35:30 -0800

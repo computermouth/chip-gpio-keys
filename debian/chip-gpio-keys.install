@@ -1,0 +1,3 @@
+firmware/*.dtbo /lib/firmware/crunchball-os/
+gpio-keys.service /etc/systemd/system/
+load-gpio-keys.sh /usr/bin/
