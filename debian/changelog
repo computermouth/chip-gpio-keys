@@ -1,3 +1,10 @@
+chip-gpio-keys (0.2) stable; urgency=medium
+
+  * Update keys to match gbp.
+  * Added polling .dts.
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Sun, 05 Feb 2017 22:35:30 -0800
+
 chip-gpio-keys (0.1) stable; urgency=medium
 
   * Initial Release.
