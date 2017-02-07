@@ -1,3 +1,9 @@
+chip-gpio-keys (0.3) stable; urgency=medium
+
+  * Add script to load dtb.
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Mon, 06 Feb 2017 23:00:30 -0800
+
 chip-gpio-keys (0.2) stable; urgency=medium
 
   * Update keys to match gbp.
